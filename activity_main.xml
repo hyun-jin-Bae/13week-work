@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="좋아하는 그림에 투표하세요"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic1"/>
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic2"/>
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic3"/>
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic4"/>
+
+        <ImageView
+            android:id="@+id/pic5"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic5"/>
+
+        <ImageView
+            android:id="@+id/pic6"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic6"/>
+
+        <ImageView
+            android:id="@+id/pic7"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic7"/>
+
+        <ImageView
+            android:id="@+id/pic8"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic8"/>
+
+        <ImageView
+            android:id="@+id/pic9"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/pic9"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="투표 결과 보기"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
